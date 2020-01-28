@@ -22,6 +22,7 @@ class ReviewsController < ApplicationController
      message: "This review has been updated successfully."
      }
   end
+end
 
   def destroy
     @review = Review.find(params[:id])
