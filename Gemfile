@@ -26,7 +26,7 @@ gem 'rspec'
 gem 'rspec-rails'
 gem 'pry'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-# gem 'rack-cors'
+gem 'rack-cors'
 group :test do
   gem 'shoulda-matchers'
   gem 'capybara'
